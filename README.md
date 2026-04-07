@@ -187,7 +187,7 @@ border: 1px solid rgba(125, 211, 252, 0.1);
 
 ---
 
-## 📦 ThemeForest Submission Notes
+## 📦 Submission Notes
 
 - ✅ All placeholder content is realistic and demo-ready
 - ✅ Zero third-party UI libraries — only Next.js core
@@ -195,12 +195,6 @@ border: 1px solid rgba(125, 211, 252, 0.1);
 - ✅ TypeScript throughout — type-safe and maintainable
 - ✅ No API keys or secrets anywhere in the code
 - ✅ Production build tested with `npm run build`
-
----
-
-## 📄 License
-
-This template is licensed for use under [ThemeForest's Standard/Extended License](https://themeforest.net/licenses/terms/regular). See the `LICENSE` file for full terms.
 
 ---
 
