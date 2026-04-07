@@ -1,6 +1,6 @@
 # GlacierPortfolio — Futuristic Developer Portfolio Template
 
-![Preview](https://i.imgur.com/placeholder.png)
+![Preview](./Photo1.png)
 
 > A premium, single-page developer portfolio built with **Next.js 16**, **React 19**, and **TypeScript**. Featuring the *Glacier Glassmorphism* design system — dark, atmospheric, and visually stunning.
 
