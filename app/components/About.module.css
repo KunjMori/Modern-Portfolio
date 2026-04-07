@@ -1,0 +1,80 @@
+.section {
+  padding: 120px 32px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.sectionLabelWrapper {
+  margin-bottom: 8px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+  margin-top: 16px;
+}
+
+.left {}
+.heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+  color: var(--on-surface);
+}
+.body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--on-surface-variant);
+  margin-bottom: 16px;
+}
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.traits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.traitCard {
+  padding: 24px;
+}
+.traitIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: rgba(125,211,252,0.1);
+  border: 1px solid rgba(125,211,252,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  color: var(--primary);
+}
+.traitTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--on-surface);
+  margin-bottom: 8px;
+}
+.traitDesc {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--on-surface-variant);
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; gap: 48px; }
+  .traits { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 540px) {
+  .traits { grid-template-columns: 1fr; }
+  .section { padding: 80px 20px; }
+}

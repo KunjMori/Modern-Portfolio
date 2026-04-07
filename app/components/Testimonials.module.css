@@ -1,0 +1,81 @@
+.section {
+  padding: 120px 32px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header {
+  margin-bottom: 48px;
+}
+.heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--on-surface);
+  margin-top: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.quoteIcon {
+  flex-shrink: 0;
+}
+
+.quote {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--on-surface-variant);
+  flex: 1;
+  font-style: italic;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 16px;
+  border-top: 1px solid var(--outline-variant);
+}
+
+.avatar {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.authorName {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--on-surface);
+}
+.authorTitle {
+  font-size: 0.78rem;
+  color: var(--on-surface-variant);
+  margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; max-width: 540px; }
+  .section { padding: 80px 20px; }
+}
+@media (min-width: 640px) and (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; max-width: none; }
+}
