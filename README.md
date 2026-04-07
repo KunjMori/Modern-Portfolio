@@ -200,7 +200,7 @@ border: 1px solid rgba(125, 211, 252, 0.1);
 
 ## 💬 Support
 
-For support, customization help, or feature requests — please leave a comment on the ThemeForest item page or reach out via the contact form on our profile.
+For support, customization help, or feature requests — please leave a comment on the item page or reach out via the contact form on our profile.
 
 ---
 
